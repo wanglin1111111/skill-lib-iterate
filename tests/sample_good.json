@@ -1,0 +1,68 @@
+{
+  "fact_check": {
+    "star_trajectory": [
+      {"t": "v2.6.0前后", "stars_k": 32.9},
+      {"t": "2026-07", "stars_k": 39.4},
+      {"t": "2026-09", "stars_k": 47.1}
+    ],
+    "actual_scale": 47,
+    "advertised_scale": 4,
+    "scenario_related": ["cro", "seo-audit", "marketing-loops", "pricing"],
+    "simulation_guardrail_quoted": true,
+    "eval_limits_mapped": true
+  },
+  "foundation": {
+    "positioning": "X 是给 5-50 人 SaaS 团队的中文 AI 搜索优化工具，解决内容在 DeepSeek/豆包不被引用的问题",
+    "audience": "行业:SaaS | 角色:市场负责人(买)+内容运营(用) | 规模:5-50人 | 痛点:内容投入大但 AI 渠道零引用，每月 8 万内容预算打水漂",
+    "value_prop": "同样一份内容，中文 AI 渠道引用率是人工优化的 3 倍（可验证：固定 5 问题 A/B 测）",
+    "alternatives": ["竞品A（英文市场，不覆盖中文渠道）", "人工优化（贵且慢，每月 8 万）", "通用 SEO 工具（不管 AI 引用）", "什么都不做（引用率维持 0，内容预算继续打水漂）"],
+    "replacement_test_passed": true,
+    "pending_fields": 0
+  },
+  "first_run": {
+    "installed": true,
+    "audit_skill_first": true,
+    "audit_actionable_items": 4,
+    "one_action_landed": true,
+    "strategy_skill_ran": true,
+    "strategy_had_real_data": true,
+    "differences_arbitrated": 1
+  },
+  "customization": {
+    "localization": {"done": true, "artifact": "渠道×结构偏好映射表（DeepSeek/豆包/百度AI/元宝/搜一搜 5 渠道各 5 固定问题实测）+ 改造后 ai-seo 配置 + 改造前后引用率对比"},
+    "advisors": {
+      "done": true,
+      "artifact": "12 位顾问清单（8 公众人物全部带书名/演讲/访谈出处 + 4 私有顾问全部带'2026-09 访谈记录'来源方式）+ 冲突自检 3 题（3 对相反建议）",
+      "public_all_sourced": true,
+      "private_all_user_provided": true,
+      "fabrication_test_passed": true
+    },
+    "real_data": {
+      "done": true,
+      "loops_picked": 2,
+      "loops_closed": 1,
+      "closure_evidence_dated": true,
+      "artifact": ""
+    },
+    "redlines": {
+      "done": true,
+      "veto_entries": 5,
+      "in_machine_readable_config": true
+    }
+  },
+  "evaluation": {
+    "skills_long_term": ["seo-audit", "council"],
+    "each_has_baseline": true,
+    "each_has_metric": true,
+    "each_has_regression": true,
+    "regression_sample_includes_veto": true,
+    "scorecard_cycles": 2,
+    "retirement_review_done": true
+  },
+  "abstraction": {
+    "sop_written": true,
+    "non_marketing_runs": 1,
+    "conflict_map_complete": true,
+    "unresolvable_marked_pending": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "fact_check": {
+    "star_trajectory": [
+      {"t": "截图当天", "stars_k": 42.9}
+    ],
+    "actual_scale": 4,
+    "advertised_scale": 4,
+    "scenario_related": [],
+    "simulation_guardrail_quoted": false,
+    "eval_limits_mapped": false
+  },
+  "foundation": {
+    "positioning": "我们是一款领先的智能营销平台，为企业提供一站式解决方案",
+    "audience": "所有需要营销的企业",
+    "value_prop": "让营销更智能、更高效、更全面",
+    "alternatives": ["竞品A", "竞品B"],
+    "replacement_test_passed": false,
+    "pending_fields": 2
+  },
+  "first_run": {
+    "installed": true,
+    "audit_skill_first": false,
+    "audit_actionable_items": 1,
+    "one_action_landed": false,
+    "strategy_skill_ran": true,
+    "strategy_had_real_data": false,
+    "differences_arbitrated": 0
+  },
+  "customization": {
+    "localization": {"done": false, "artifact": ""},
+    "advisors": {
+      "done": true,
+      "artifact": "12 位大师清单（大师们肯定会这样说…）",
+      "public_all_sourced": false,
+      "private_all_user_provided": false,
+      "fabrication_test_passed": false
+    },
+    "real_data": {
+      "done": true,
+      "loops_picked": 5,
+      "loops_closed": 0,
+      "closure_evidence_dated": false,
+      "artifact": ""
+    },
+    "redlines": {
+      "done": true,
+      "veto_entries": 0,
+      "in_machine_readable_config": false
+    }
+  },
+  "evaluation": {
+    "skills_long_term": ["seo-audit", "council", "cro"],
+    "each_has_baseline": false,
+    "each_has_metric": false,
+    "each_has_regression": false,
+    "regression_sample_includes_veto": false,
+    "scorecard_cycles": 0,
+    "retirement_review_done": false
+  },
+  "abstraction": {
+    "sop_written": false,
+    "non_marketing_runs": 0,
+    "conflict_map_complete": false,
+    "unresolvable_marked_pending": false
+  }
+}
